@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --font-family-main: "Montserrat", sans-serif;
+  --font-family-secondary: "Fraunces", serif;
+  --default-font-size: 14px;
+  --default-page-widht: 1440px;
+  --color-primary-dark-cyan: hsl(158, 36%, 37%);
+  --color-primary-cream: hsl(30, 38%, 92%);
+  --color-secondary-dark-blue: hsl(212, 21%, 14%);
+  --color-secondary-dark-gray-blue: hsl(228, 12%, 48%);
+  --color-secondary-white: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-main);
+  color: var(--color-secondary-dark-blue);
+}
+
+p {
+  font-size: var(--default-font-size);
+  color: var(--color-secondary-dark-gray-blue);
+  font-weight: 500;
+}
+
+h1 {
+  font-family: var(--font-family-secondary);
+  font-size: 2.2rem;
+}
+
+.container {
+  background-color: var(--color-primary-cream);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  background-color: var(--color-secondary-white);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  height: 450px;
+  width: 600px;
+}
+
+.product-img {
+  height: 100%;
+  display: block;
+}
+
+.card-body {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.product-type {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+.product-name {
+  line-height: 2rem;
+}
+
+.product-description {
+  line-height: 1.5rem;
+}
+
+.product-pricing {
+  display: flex;
+  align-items: center;
+}
+
+.product-pricing > :first-child {
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  color: var(--color-primary-dark-cyan);
+  font-family: var(--font-family-secondary);
+}
+
+.product-full-price {
+  text-decoration: line-through;
+}
+
+.product-cart-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  font-weight: 700;
+  color: var(--color-secondary-white);
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--color-primary-dark-cyan);
+}
+
+.shopping-cart-icon {
+  margin-right: 0.5rem;
+}

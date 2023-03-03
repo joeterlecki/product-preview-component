@@ -22,8 +22,8 @@ This is a solution to the [Product Preview challenge on Frontend Mentor](https:/
 
 ### Links
 
-- Solution URL: [Github Solution](https://github.com/joeterlecki/qr-code-component)
-- Live Site URL: [Github Pages Live](https://joeterlecki.github.io/qr-code-component/)
+- Solution URL: [Github Solution](https://github.com/joeterlecki/product-preview-component)
+- Live Site URL: [Github Pages Live](https://joeterlecki.github.io/product-preview-component/)
 
 ## My process
 
@@ -34,7 +34,7 @@ This is a solution to the [Product Preview challenge on Frontend Mentor](https:/
 - I like to use internal card body divs to such as content and header to align text content with in the card.
 - Then after I have the UI 90 percent complete, I refactor all sizes to close as spec as possible.
 - Once everything looks close, I will add the drop shadow to the card.
-- Finally I will double check the mobil dimensions and make specific media query changes if needed.
+- Finally I will double check the mobile dimensions and make specific media query changes if needed.
 
 ### Built with
 

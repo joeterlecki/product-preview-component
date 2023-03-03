@@ -52,8 +52,12 @@ h1 {
   width: 600px;
 }
 
-.product-img {
+/* .product-img picture {
   height: 100%;
+  display: block;
+} */
+picture img {
+  width: 100%;
   display: block;
 }
 
@@ -112,4 +116,17 @@ h1 {
 
 .shopping-cart-icon {
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    width: 340px;
+    height: 600px;
+    flex-direction: column;
+  }
+
+  picture img {
+    width: 100%;
+    height: 100%;
+  }
 }

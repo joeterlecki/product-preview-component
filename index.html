@@ -18,11 +18,22 @@
       <div class="container">
         <article class="card">
           <div class="card-img">
-            <img
+            <picture>
+              <source
+                media="(max-width: 650px)"
+                srcset="./images/image-product-mobile.jpg"
+              />
+
+              <img src="./images/image-product-desktop.jpg" alt="" />
+            </picture>
+            <!-- <img
               class="product-img"
+              srcset="./images/image-product-desktop.jpg 600w, ./images/image-product-mobile.jpg  340w"
+              sizes="(max-width: 650px) 340px 600px"
               src="./images/image-product-desktop.jpg"
-              alt="Gabrielle Chanel Perfume"
-            />
+              alt="Gabrielle Chanel
+            Perfume"
+            /> -->
           </div>
           <div class="card-body">
             <p class="product-type">Perfume</p>

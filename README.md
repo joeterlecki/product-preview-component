@@ -41,19 +41,23 @@ This is a solution to the [Product Preview challenge on Frontend Mentor](https:/
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Responsive Design
 
 ### What I learned
 
 I leared and brushed off alot of cobwebs on laying out HTML and CSS components because I been studying Javascript. This was good practive to get the HTML and CSS brain activity flowing again.
 
+I also learned how to use responsive design using media queries and rem units where applicatble
+
 ### Continued development
 
 I will continue to use frontend mentor as I study frontend development and design. For future development I look to get more into CSS grid for the more advanced layouts and landing page challanges
 
+Understand were to use rem units and were to use static pixel definitions in styling
+
 ### Useful resources
 
-- [MDM Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me becuase I forgot the box shadow syntax
-- [Box shadow Examples](https://getcssscan.com/css-box-shadow-examples) - This is an amazing resource for premade box shadows. I used this to help me dial in my box shadow with inspiration to get close to the Figma file
+- [MDM Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) - Learn how to use a picture tag for dynamic image selection for responsive design.
 
 ## Author
 

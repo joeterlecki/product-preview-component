@@ -10,6 +10,7 @@
   --color-secondary-dark-blue: hsl(212, 21%, 14%);
   --color-secondary-dark-gray-blue: hsl(228, 12%, 48%);
   --color-secondary-white: hsl(0, 0%, 100%);
+  --color-secondary-dark-green: hsl(158, 42%, 18%);
 }
 
 * {
@@ -114,6 +115,11 @@ h1 {
   padding: 1rem;
   border-radius: 0.75rem;
   background-color: var(--color-primary-dark-cyan);
+}
+
+.product-cart-btn:active,
+.product-cart-btn:hover {
+  background-color: var(--color-secondary-dark-green);
 }
 
 .shopping-cart-icon {
